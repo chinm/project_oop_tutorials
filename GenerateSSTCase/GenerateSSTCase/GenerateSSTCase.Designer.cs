@@ -54,24 +54,24 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(13, 52);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 13);
+            this.label2.Size = new System.Drawing.Size(125, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "SST File Path:";
+            this.label2.Text = "SST(Template) File Path:";
             // 
             // txtViewPointFilePath
             // 
             this.txtViewPointFilePath.Enabled = false;
-            this.txtViewPointFilePath.Location = new System.Drawing.Point(131, 18);
+            this.txtViewPointFilePath.Location = new System.Drawing.Point(144, 18);
             this.txtViewPointFilePath.Name = "txtViewPointFilePath";
-            this.txtViewPointFilePath.Size = new System.Drawing.Size(325, 20);
+            this.txtViewPointFilePath.Size = new System.Drawing.Size(312, 20);
             this.txtViewPointFilePath.TabIndex = 2;
             // 
             // txtSSTFilePath
             // 
             this.txtSSTFilePath.Enabled = false;
-            this.txtSSTFilePath.Location = new System.Drawing.Point(131, 49);
+            this.txtSSTFilePath.Location = new System.Drawing.Point(144, 49);
             this.txtSSTFilePath.Name = "txtSSTFilePath";
-            this.txtSSTFilePath.Size = new System.Drawing.Size(325, 20);
+            this.txtSSTFilePath.Size = new System.Drawing.Size(312, 20);
             this.txtSSTFilePath.TabIndex = 3;
             // 
             // btnGenerate
@@ -99,11 +99,15 @@
             // 
             // openFileDialogViewPoint
             // 
+            this.openFileDialogViewPoint.DefaultExt = "xlsx";
             this.openFileDialogViewPoint.Filter = "Excel Files|*.xls;*.xlsx";
+            this.openFileDialogViewPoint.Title = "Select A Viewpoint File";
             // 
             // openFileDialogSST
             // 
+            this.openFileDialogSST.DefaultExt = "xlsx";
             this.openFileDialogSST.Filter = "Excel Files|*.xls;*.xlsx";
+            this.openFileDialogSST.Title = "Select A SST(Template) File";
             // 
             // btnBrowseViewpointFile
             // 
