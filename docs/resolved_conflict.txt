@@ -1,1 +1,3 @@
 I can resolve a conflict
+
+Step 1: create new branch called is feature1
