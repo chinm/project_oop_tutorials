@@ -1,3 +1,5 @@
 I can resolve a conflict
 
 Step 1: create new branch called is feature1
+Step 1.1
+Step 2: create new branch called is feature2
